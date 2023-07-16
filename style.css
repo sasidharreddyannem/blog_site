@@ -1,0 +1,82 @@
+
+
+.container{
+    background-image: linear-gradient(to bottom,rgb(219, 130, 128),rgb(230, 246, 230));
+    width: 70%;
+    margin: auto;
+    min-height: 100vh;
+    padding: 60px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+h1{
+    width: 300px;
+    margin: auto;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+button{
+    width: 50px;
+    padding: 5px;
+    margin: auto;
+}
+#title{
+    border: 0;
+    box-shadow: 10px 10px 5px rgb(52, 45, 45);
+}
+#discription{
+    border: 0;
+    box-shadow: 10px 10px 5px rgb(52,45,45);
+}
+
+input,textarea{
+    padding: 10px;
+    font-style: italic;
+    font-size: large;
+    border-radius: 3px;
+    margin: 10px;
+}
+.task>div{
+    width: 100%;
+}
+.task{
+    box-shadow: 8px 10px 4px rgb(52,45,45);
+    background-image: linear-gradient(to bottom,rgb(2, 58, 111),rgb(116, 149, 219));
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    margin: 20px;
+    border-radius: 5px;
+}
+.paras{
+    margin: 20px;
+    width: 100px;
+    background-color: azure;
+    padding: 10px;
+    font-weight: 2px;
+    font-style: italic;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.paras1{
+    margin: 20px;
+    background-color: rgb(164, 213, 214);
+    padding: 10px;
+    font-style: italic;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+.delebtn{
+ border-radius: 100%;
+ width: 30px;
+ height: 30px;
+ justify-content: center;
+ align-items: center;
+ display: flex;
+}
